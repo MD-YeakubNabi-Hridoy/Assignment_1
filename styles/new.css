@@ -225,6 +225,13 @@
 .portfolio-img img{
     width: 400px;
 }
+.portfolio-img img:hover{
+    width: 400px;
+    opacity: 0.8;
+    transition: all 0.8s;
+    transform:scale(1.01);
+    cursor: pointer;
+}
 
 /* subscribe section start */
 .subscribe{
